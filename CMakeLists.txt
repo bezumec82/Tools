@@ -31,7 +31,7 @@ set( CMAKE_COLOR_MAKEFILE ON )
 ###########
 ### Library
 ###########
-message( "Preparing library : " ${PROJECT_NAME} )
+message( "${CYN}Configuring library : ${PROJECT_NAME}${NORM}" )
 add_library( ${PROJECT_NAME} INTERFACE )
 target_include_directories(
     ${PROJECT_NAME}
